@@ -1,0 +1,26 @@
+{
+    "green": {
+        "description": "Free flow",
+        "hsv_lower": [35, 80, 80],
+        "hsv_upper": [85, 255, 255],
+        "congestion_score": 0
+    },
+    "orange": {
+        "description": "Moderate congestion",
+        "hsv_lower": [10, 100, 100],
+        "hsv_upper": [34, 255, 255],
+        "congestion_score": 1
+    },
+    "red": {
+        "description": "Heavy congestion",
+        "hsv_lower": [0, 100, 100],
+        "hsv_upper": [9, 255, 255],
+        "congestion_score": 2
+    },
+    "dark_red": {
+        "description": "Severe congestion / gridlock",
+        "hsv_lower": [0, 80, 40],
+        "hsv_upper": [10, 255, 99],
+        "congestion_score": 3
+    }
+}

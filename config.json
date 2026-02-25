@@ -1,0 +1,40 @@
+{
+    "capture": {
+        "viewport_width": 1920,
+        "viewport_height": 1080,
+        "zoom_level": 13,
+        "center_lat": 23.8103,
+        "center_lng": 90.4125,
+        "bounds": {
+            "north": 23.8950,
+            "south": 23.7100,
+            "east": 90.5000,
+            "west": 90.3300
+        },
+        "traffic_layer": true,
+        "color_mode": "light",
+        "interval_seconds": 300,
+        "screenshot_dir": "screenshots",
+        "captures_csv": "captures.csv",
+        "machine_id": "machine-01"
+    },
+    "grid": {
+        "rows": 50,
+        "cols": 50,
+        "zones_file": "zones.json"
+    },
+    "thresholds": {
+        "version": "v1",
+        "file": "thresholds_v1.json"
+    },
+    "output": {
+        "traffic_csv": "traffic_tabular.csv",
+        "drift_log": "drift_log.csv"
+    },
+    "known_areas": {
+        "Farmgate": {"lat": 23.7575, "lng": 90.3870},
+        "Gulshan-2": {"lat": 23.7935, "lng": 90.4143},
+        "Jatrabari": {"lat": 23.7104, "lng": 90.4350}
+    },
+    "timezone": "Asia/Dhaka"
+}
